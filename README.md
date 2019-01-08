@@ -6,19 +6,19 @@ Project made to control a Lamp via HTTP, with an ESP8266 connected to the WiFi. 
 The Lamp is connected to a Relay in a ESP8266 board. There is a Capacitive Touch Sensor to control the lamp manually. There is also a RGB LED connected to show the lamp state, and the colors of each state can be configured via HTTP.
 
 ## HTTP URL Call examples:
-### Turn Lamp ON
+#### Turn Lamp ON
 192.168.0.201/bedroomlamp/switch/on
 
-### Turn Lamp OFF
+#### Turn Lamp OFF
 192.168.0.201/bedroomlamp/switch/off
 
-### Get Lamp STATUS
+#### Get Lamp STATUS
 192.168.0.201/bedroomlamp/switch/status
 
-### Get Lamp ON/OFF Color (For the actual state)
+#### Get RGB LED ON/OFF Color (For the actual state)
 192.168.0.201/bedroomlamp/color/status
 
-### Set Lamp ON/OFF Color (For the actual state)
+#### Set RGB LED ON/OFF Color (For the actual state)
 192.168.0.201/bedroomlamp/color/HexColor
 
 ## Links
